@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1327571D859EB200EFAC1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD13273E1D859EB200EFAC1E /* main.cpp */; };
+		AD1327581D859EB200EFAC1E /* cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD13273F1D859EB200EFAC1E /* cell.cpp */; };
+		AD1327591D859EB200EFAC1E /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1327401D859EB200EFAC1E /* vector.cpp */; };
+		AD13275A1D859EB200EFAC1E /* simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1327421D859EB200EFAC1E /* simulation.cpp */; };
+		AD13275B1D859EB200EFAC1E /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1327431D859EB200EFAC1E /* matrix.cpp */; };
+		AD13275C1D859EB200EFAC1E /* calculus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1327471D859EB200EFAC1E /* calculus.cpp */; };
+		AD13275D1D859EB200EFAC1E /* shapefunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1327481D859EB200EFAC1E /* shapefunctions.cpp */; };
+		AD1327621D859EB200EFAC1E /* postprocessing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1327541D859EB200EFAC1E /* postprocessing.cpp */; };
+		AD1327631D859EB200EFAC1E /* geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1327551D859EB200EFAC1E /* geometry.cpp */; };
+		AD13276D1D85A0F700EFAC1E /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD13276B1D85A0F700EFAC1E /* grid.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD1327311D859E6100EFAC1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD1327331D859E6100EFAC1E /* TAM574_STDG */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TAM574_STDG; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD13273E1D859EB200EFAC1E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../src/main.cpp; sourceTree = "<group>"; };
+		AD13273F1D859EB200EFAC1E /* cell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cell.cpp; path = ../../../../src/cell.cpp; sourceTree = "<group>"; };
+		AD1327401D859EB200EFAC1E /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vector.cpp; path = ../../../../src/vector.cpp; sourceTree = "<group>"; };
+		AD1327411D859EB200EFAC1E /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vector.h; path = ../../../../src/vector.h; sourceTree = "<group>"; };
+		AD1327421D859EB200EFAC1E /* simulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = simulation.cpp; path = ../../../../src/simulation.cpp; sourceTree = "<group>"; };
+		AD1327431D859EB200EFAC1E /* matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = matrix.cpp; path = ../../../../src/matrix.cpp; sourceTree = "<group>"; };
+		AD1327441D859EB200EFAC1E /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = ../../../../src/matrix.h; sourceTree = "<group>"; };
+		AD1327451D859EB200EFAC1E /* cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cell.h; path = ../../../../src/cell.h; sourceTree = "<group>"; };
+		AD1327461D859EB200EFAC1E /* simulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = simulation.h; path = ../../../../src/simulation.h; sourceTree = "<group>"; };
+		AD1327471D859EB200EFAC1E /* calculus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = calculus.cpp; path = ../../../../src/calculus.cpp; sourceTree = "<group>"; };
+		AD1327481D859EB200EFAC1E /* shapefunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shapefunctions.cpp; path = ../../../../src/shapefunctions.cpp; sourceTree = "<group>"; };
+		AD1327491D859EB200EFAC1E /* postprocessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = postprocessing.h; path = ../../../../src/postprocessing.h; sourceTree = "<group>"; };
+		AD13274A1D859EB200EFAC1E /* geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geometry.h; path = ../../../../src/geometry.h; sourceTree = "<group>"; };
+		AD13274B1D859EB200EFAC1E /* calculus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = calculus.h; path = ../../../../src/calculus.h; sourceTree = "<group>"; };
+		AD13274C1D859EB200EFAC1E /* shapefunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shapefunctions.h; path = ../../../../src/shapefunctions.h; sourceTree = "<group>"; };
+		AD1327541D859EB200EFAC1E /* postprocessing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = postprocessing.cpp; path = ../../../../src/postprocessing.cpp; sourceTree = "<group>"; };
+		AD1327551D859EB200EFAC1E /* geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = geometry.cpp; path = ../../../../src/geometry.cpp; sourceTree = "<group>"; };
+		AD13276B1D85A0F700EFAC1E /* grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = grid.cpp; path = ../../../../src/grid.cpp; sourceTree = "<group>"; };
+		AD13276C1D85A0F700EFAC1E /* grid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = grid.hpp; path = ../../../../src/grid.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1327301D859E6100EFAC1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD13272A1D859E6100EFAC1E = {
+			isa = PBXGroup;
+			children = (
+				AD1327351D859E6100EFAC1E /* TAM574_STDG */,
+				AD1327341D859E6100EFAC1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1327341D859E6100EFAC1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1327331D859E6100EFAC1E /* TAM574_STDG */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1327351D859E6100EFAC1E /* TAM574_STDG */ = {
+			isa = PBXGroup;
+			children = (
+				AD13273D1D859E9A00EFAC1E /* src */,
+			);
+			path = TAM574_STDG;
+			sourceTree = "<group>";
+		};
+		AD13273D1D859E9A00EFAC1E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AD13276A1D859F9300EFAC1E /* Helper */,
+				AD1327691D859F6500EFAC1E /* Sim */,
+				AD1327681D859F5B00EFAC1E /* PostProcessing */,
+				AD1327671D859F4D00EFAC1E /* LinearAlgebra */,
+				AD1327661D859F3900EFAC1E /* Quadrature */,
+				AD1327651D859F2300EFAC1E /* Basis */,
+				AD1327641D859EB900EFAC1E /* Geometry */,
+				AD13273E1D859EB200EFAC1E /* main.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		AD1327641D859EB900EFAC1E /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				AD13273F1D859EB200EFAC1E /* cell.cpp */,
+				AD1327451D859EB200EFAC1E /* cell.h */,
+				AD13274A1D859EB200EFAC1E /* geometry.h */,
+				AD1327551D859EB200EFAC1E /* geometry.cpp */,
+				AD13276B1D85A0F700EFAC1E /* grid.cpp */,
+				AD13276C1D85A0F700EFAC1E /* grid.hpp */,
+			);
+			name = Geometry;
+			sourceTree = "<group>";
+		};
+		AD1327651D859F2300EFAC1E /* Basis */ = {
+			isa = PBXGroup;
+			children = (
+				AD1327481D859EB200EFAC1E /* shapefunctions.cpp */,
+				AD13274C1D859EB200EFAC1E /* shapefunctions.h */,
+			);
+			name = Basis;
+			sourceTree = "<group>";
+		};
+		AD1327661D859F3900EFAC1E /* Quadrature */ = {
+			isa = PBXGroup;
+			children = (
+				AD1327471D859EB200EFAC1E /* calculus.cpp */,
+				AD13274B1D859EB200EFAC1E /* calculus.h */,
+			);
+			name = Quadrature;
+			sourceTree = "<group>";
+		};
+		AD1327671D859F4D00EFAC1E /* LinearAlgebra */ = {
+			isa = PBXGroup;
+			children = (
+				AD1327431D859EB200EFAC1E /* matrix.cpp */,
+				AD1327441D859EB200EFAC1E /* matrix.h */,
+			);
+			name = LinearAlgebra;
+			sourceTree = "<group>";
+		};
+		AD1327681D859F5B00EFAC1E /* PostProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				AD1327491D859EB200EFAC1E /* postprocessing.h */,
+				AD1327541D859EB200EFAC1E /* postprocessing.cpp */,
+			);
+			name = PostProcessing;
+			sourceTree = "<group>";
+		};
+		AD1327691D859F6500EFAC1E /* Sim */ = {
+			isa = PBXGroup;
+			children = (
+				AD1327421D859EB200EFAC1E /* simulation.cpp */,
+				AD1327461D859EB200EFAC1E /* simulation.h */,
+			);
+			name = Sim;
+			sourceTree = "<group>";
+		};
+		AD13276A1D859F9300EFAC1E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AD1327401D859EB200EFAC1E /* vector.cpp */,
+				AD1327411D859EB200EFAC1E /* vector.h */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1327321D859E6100EFAC1E /* TAM574_STDG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD13273A1D859E6100EFAC1E /* Build configuration list for PBXNativeTarget "TAM574_STDG" */;
+			buildPhases = (
+				AD13272F1D859E6100EFAC1E /* Sources */,
+				AD1327301D859E6100EFAC1E /* Frameworks */,
+				AD1327311D859E6100EFAC1E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAM574_STDG;
+			productName = TAM574_STDG;
+			productReference = AD1327331D859E6100EFAC1E /* TAM574_STDG */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD13272B1D859E6100EFAC1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Christian Howard";
+				TargetAttributes = {
+					AD1327321D859E6100EFAC1E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AD13272E1D859E6100EFAC1E /* Build configuration list for PBXProject "TAM574_STDG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD13272A1D859E6100EFAC1E;
+			productRefGroup = AD1327341D859E6100EFAC1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1327321D859E6100EFAC1E /* TAM574_STDG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD13272F1D859E6100EFAC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD13275B1D859EB200EFAC1E /* matrix.cpp in Sources */,
+				AD13275A1D859EB200EFAC1E /* simulation.cpp in Sources */,
+				AD1327571D859EB200EFAC1E /* main.cpp in Sources */,
+				AD13276D1D85A0F700EFAC1E /* grid.cpp in Sources */,
+				AD13275D1D859EB200EFAC1E /* shapefunctions.cpp in Sources */,
+				AD1327631D859EB200EFAC1E /* geometry.cpp in Sources */,
+				AD1327581D859EB200EFAC1E /* cell.cpp in Sources */,
+				AD1327591D859EB200EFAC1E /* vector.cpp in Sources */,
+				AD13275C1D859EB200EFAC1E /* calculus.cpp in Sources */,
+				AD1327621D859EB200EFAC1E /* postprocessing.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD1327381D859E6100EFAC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD1327391D859E6100EFAC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD13273B1D859E6100EFAC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD13273C1D859E6100EFAC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD13272E1D859E6100EFAC1E /* Build configuration list for PBXProject "TAM574_STDG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1327381D859E6100EFAC1E /* Debug */,
+				AD1327391D859E6100EFAC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD13273A1D859E6100EFAC1E /* Build configuration list for PBXNativeTarget "TAM574_STDG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD13273B1D859E6100EFAC1E /* Debug */,
+				AD13273C1D859E6100EFAC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD13272B1D859E6100EFAC1E /* Project object */;
+}
