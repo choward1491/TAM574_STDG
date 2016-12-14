@@ -9,7 +9,4 @@ When developing this code, one would aim to validate the code by finding the par
 After the validation, the next step would be to gain an idea of the convergence of the STDG method by using some error estimators and plotting their values for various values of refinement and polynomial order within the elements.
 
 ### Comments
-When reviewing the results at this point in time, it seems there was some bug in the algorithm that showed itself via the convergence plots, since there were some choices of polynomial order that didn't perform in a way that made sense.
-Interestingly, the higher order polynomial methods managed to converge to a decent result, even with the suspected error.
-
-The report located in the project helps to document and show the results of the analysis done for the above areas, while the source code helps show what I implemented at the time of the project to get the results within the report.
+The report located in the **docs/** directory in the project helps to document and show the results of the analysis done for the above areas, while the source code helps show what I implemented at the time of the project to get the results within the report.
