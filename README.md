@@ -10,3 +10,10 @@ After the validation, the next step would be to gain an idea of the convergence 
 
 ### Comments
 The report located in the **docs/** directory in the project helps to document and show the results of the analysis done for the above areas, while the source code helps show what I implemented at the time of the project to get the results within the report.
+
+# Software and Visualization
+To compile the software, just type `make` at the command line. After compilation takes place, you can then `cd` to the `bin/` directory and run the optimized executable `sim_exec` by typing `./sim_exec`. This executable needs to be run in a location where the files `GaussAbscissa.txt` and `GaussWeights.txt` exist, hence why you could start out by running it in the `bin/` directory. 
+
+After running the simulation, some `x_*`,`u_*`,`q_*` data files will be generated in the same location as where the simulation was run. You can use/modify the matlab script in `matlab/scripts/plotSolution.m` to display the final solution for each field and the space-time solution for each field using these output data files.
+
+Note that this software has not been touched since 2013 other than to add comments or rename a couple setup variables in `main.cpp`, so the software is not as flexible as it could be. If future work was to be done, it would be great to make it possible to pass in configuration files that can specify where quadrature data is, the file paths and names for data we want to output, the polynomial basis choice, and more. As of now, things are hard coded in the executable, so one would need to manually change things either in the code or post-execution of the software.
