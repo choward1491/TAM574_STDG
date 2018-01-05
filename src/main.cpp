@@ -21,23 +21,33 @@ double FunctionQ(double x)
 
 int main( void)
 {
-
+    
 	Vector consts(4); 
-	double T = 1;
-	double L = 2*PI;
-	double a = 1;
-	consts[0] = 2*PI;	//a
-	consts[1] = consts[0];	//c
-	consts[2] = 1.0/(L*L);	//tau
-	consts[3] = 1;	//kappa
-	int Nx = 3;
-	int Nt = 40;
-	int m = 1;
+	double T = 1, L = 2*PI;
+    double C = 1.0/256.0, a = 2*PI, c = 2*PI;
+    double tau_c = 1.0/(4*PI*PI), tau = C*tau_c;
+    int p  = 3;
+	int Nx = 100, Nt = 10*T/(PI*PI*tau);
+    consts[0] = a;      //a
+    consts[1] = c;      //c
+    consts[2] = tau;    //tau
+    consts[3] = 1;      //kappa
 
-	Simulation test(Nt,Nx,2,L,T,&FunctionU,&FunctionQ,consts);
+    // construct simulations
+	Simulation test(Nt,Nx,p,L,T,&FunctionU,&FunctionQ,consts);
+    
+    // init output solution files
+    char filename[256] = {'\0'};
+    sprintf(filename, "u_p%i.txt",p); string ufile = std::string(filename);
+    sprintf(filename, "q_p%i.txt",p); string qfile = std::string(filename);
+    sprintf(filename, "x_p%i.txt",p); string xfile = std::string(filename);
+    
+    // run simulation
+    int num_eval_xcoords_per_element = 5;
+    int num_eval_tcoords_per_element = 3;
+	test.run(num_eval_xcoords_per_element,num_eval_tcoords_per_element,ufile,qfile,xfile);
 
-	test.run(5,3,"u_p3_c1.txt","q_p3_c1.txt","x_p3_c1.txt");
-
+    // print final message
 	cout<<"\nThe Simulation has completed!\n";
 	return 0;
 }
