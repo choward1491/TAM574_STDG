@@ -19,7 +19,9 @@ class Simulation
 			grid.initQ = iq;
 		}
 
-		void run(int numx,int numt, string fileu, string fileq,string filex);
+    void run(int numx,int numt,
+             string full_fileu, string full_fileq,string full_filex,
+             string final_fileu, string final_fileq,string final_filex);
 	private:
 		Grid grid;
 };

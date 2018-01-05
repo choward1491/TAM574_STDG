@@ -38,14 +38,18 @@ int main( void)
     
     // init output solution files
     char filename[256] = {'\0'};
-    sprintf(filename, "u_p%i.txt",p); string ufile = std::string(filename);
-    sprintf(filename, "q_p%i.txt",p); string qfile = std::string(filename);
-    sprintf(filename, "x_p%i.txt",p); string xfile = std::string(filename);
+    sprintf(filename, "u_p%i.txt",p);       string ufile = std::string(filename);
+    sprintf(filename, "q_p%i.txt",p);       string qfile = std::string(filename);
+    sprintf(filename, "x_p%i.txt",p);       string xfile = std::string(filename);
+    sprintf(filename, "final_u_p%i.txt",p); string fufile = std::string(filename);
+    sprintf(filename, "final_q_p%i.txt",p); string fqfile = std::string(filename);
+    sprintf(filename, "final_x_p%i.txt",p); string fxfile = std::string(filename);
     
     // run simulation
     int num_eval_xcoords_per_element = 5;
     int num_eval_tcoords_per_element = 3;
-	test.run(num_eval_xcoords_per_element,num_eval_tcoords_per_element,ufile,qfile,xfile);
+	test.run(num_eval_xcoords_per_element,num_eval_tcoords_per_element,
+             ufile,qfile,xfile,fufile,fqfile,fxfile);
 
     // print final message
 	cout<<"\nThe Simulation has completed!\n";
