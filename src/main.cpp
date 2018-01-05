@@ -23,7 +23,7 @@ int main( void)
 {
     
 	Vector consts(4); 
-	double T = 1, L = 2*PI;
+	double T = 5, L = 2*PI;
     double C = 1.0/256.0, a = 2*PI, c = 2*PI;
     double tau_c = 1.0/(4*PI*PI), tau = C*tau_c;
     int p  = 3;
